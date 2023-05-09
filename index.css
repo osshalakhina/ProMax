@@ -1,0 +1,167 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 20px 50px;
+}
+
+.logo {
+  width: 200px;
+}
+
+.image {
+  width: 800px;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+  color: #24325b;
+}
+
+p {
+  font-size: 15px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 10px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  width: 310px;
+}
+
+.package {
+  width: 600px;
+}
+
+.banner {
+  width: 600px;
+  margin-bottom: 20px;
+}
+
+.bottom {
+  margin-bottom: 0px;
+}
+
+.poster {
+  width: 290px;
+}
+
+.margin {
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 615px) {
+  body {
+    margin: 0px 10px;
+  }
+
+  .logo {
+    width: 200px;
+  }
+
+  .site {
+    width: 400px;
+  }
+
+  .image {
+    width: 400px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  h1 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+
+  .image {
+    width: 210px;
+  }
+
+  .package {
+    width: 400px;
+  }
+
+  .banner {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+
+  .bottom {
+    margin-bottom: 0px;
+  }
+
+  .poster {
+    width: 190px;
+  }
+
+  .margin {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  body {
+    margin: 0px 10px;
+  }
+
+  .logo {
+    width: 150px;
+  }
+
+  .site {
+    width: 300px;
+  }
+
+  .images {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image {
+    width: 300px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .image {
+    width: 300px;
+  }
+
+  .package {
+    width: 300px;
+  }
+
+  .banner {
+    width: 300px;
+    margin-bottom: 20px;
+  }
+
+  .bottom {
+    margin-bottom: 0px;
+  }
+
+  .poster {
+    width: 300px;
+  }
+
+  .margin {
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
